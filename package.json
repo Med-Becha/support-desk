@@ -1,0 +1,22 @@
+{
+  "name": "support-desk",
+  "version": "1.0.0",
+  "description": "support ticket app",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server/server.js",
+    "start": "nodemon server/server.js"
+  },
+  "author": "med besha",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
